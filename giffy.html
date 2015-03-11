@@ -1,0 +1,50 @@
+<html>
+<style>
+  html {
+    background: url("http://fc02.deviantart.net/fs70/f/2010/203/a/4/Teal_Pixel_Blocks_by_sonyrootkit.jpg");
+  }
+  #header {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .container {
+    background-color: rgba(255,255,255,0.8);
+    border: 5px solid black;
+    border-radius: 20px;
+    font-family: georgia;
+  }
+  .fill {
+      margin: 0 auto;
+      text-align: center;
+  }
+  img {
+    border-radius: 10px;
+    max-width: 100%;
+  }
+  input {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+  }
+  button {
+    width: 60px;
+    border-radius: 5px;
+  }  ​
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src = "./giffy.js"></script>
+<body>
+  <div class = "container">
+    <div id = "header">
+      <h1>GIF-tastic GIF Generator</h1>
+      <input type = "text" placeholder = "i want these gifs!" id = "search">
+      <button id = "submit">submit</button>
+      <h3></h3>
+    </div>
+    <div class = "fill">
+      <img></img>
+    </div>
+  </div>
+</body>
+</html>
